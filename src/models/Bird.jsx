@@ -17,11 +17,11 @@ const Bird = () => {
       birdRef.current.rotation.y = 0;
     }
     if (birdRef.current.rotation.y === 0) {
-      birdRef.current.position.x += 0.2;
-      birdRef.current.position.z -= 0.2;
+      birdRef.current.position.x += 0.01;
+      birdRef.current.position.z -= 0.01;
     } else {
-      birdRef.current.position.x -= 0.2;
-      birdRef.current.position.z += 0.2;
+      birdRef.current.position.x -= 0.01;
+      birdRef.current.position.z += 0.01;
     }
   });
   return (
