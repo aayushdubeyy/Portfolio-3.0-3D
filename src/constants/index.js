@@ -26,10 +26,8 @@ import {
   typescript,
   // book,
 } from "../assets/icons";
-import book from "../assets/icons/book.svg";
 import book2 from "../assets/icons/book2.svg";
 import portfolio2 from "../assets/icons/hair-styles-men-svgrepo-com.svg";
-import trips from "../assets/icons/beach-umbrella-and-beach-ball-svgrepo-com.svg";
 import techm from "../assets/images/Tech Mahindra.png";
 import drdo from "../assets/images/drdo-official-logo.png";
 import sql3 from "../assets/icons/sql3.svg";
@@ -37,6 +35,11 @@ import python2 from "../assets/icons/icons8-python-94.png";
 import cpp2 from "../assets/icons/C++2.svg";
 import dtu from "../assets/images/dtu.png";
 import nfgs from "../assets/images/ngfs.png";
+import apple from "../assets/icons/apple.svg";
+import ai2 from "../assets/icons/ai-svgrepo-com (2).svg";
+import threejs from "../assets/icons/threejs-1.svg";
+// import fm from "../assets/icons/framer-motion.svg";
+import glap from "../assets/icons/gsap-greensock.svg";
 export const skills = [
   {
     imageUrl: css,
@@ -88,16 +91,21 @@ export const skills = [
     name: "SQL",
     type: "Database",
   },
-  // {
-  //   imageUrl: motion,
-  //   name: "Motion",
-  //   type: "Animation",
-  // },
-  // {
-  //   imageUrl: mui,
-  //   name: "Material-UI",
-  //   type: "Frontend",
-  // },
+  {
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: threejs,
+    name: "Three.js",
+    type: "3D Models",
+  },
+  {
+    imageUrl: glap,
+    name: "GSAP",
+    type: "Animations",
+  },
   {
     imageUrl: nextjs,
     name: "Next.js",
@@ -118,11 +126,11 @@ export const skills = [
     name: "Redux",
     type: "State Management",
   },
-  // {
-  //   imageUrl: sass,
-  //   name: "Sass",
-  //   type: "Frontend",
-  // },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
   {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
@@ -140,7 +148,7 @@ export const experiences = [
     title: "Tech Mahindra",
     company_name: "Internship",
     icon: techm,
-    iconBg: "#accbe1",
+    iconBg: "#c2bcbc",
     date: "June 2023 - August 2023",
     points: [
       "Worked as a Quality and Management Intern for Business development of our client Airtel.",
@@ -153,7 +161,7 @@ export const experiences = [
     title: "Defense Research and Development Organization",
     company_name: "Internship",
     icon: drdo,
-    iconBg: "#fbc3bc",
+    iconBg: "#a2d2ff", //fbc3bc
     date: "June 2022 - August 2022",
     points: [
       "Worked under an 'E' Level Scientist of DRDO.",
@@ -166,7 +174,7 @@ export const experiences = [
     title: "Delhi Technological University",
     company_name: "B.Tech",
     icon: dtu,
-    iconBg: "#b7e4c7",
+    iconBg: "#fbc3bc", //b7e4c7
     date: "October 2020 - May 2024",
     points: [
       "Currently having an aggregate CGPA of 8.83/10 with consistently gaining 9+ in 3 consecutive semesters.",
@@ -179,7 +187,7 @@ export const experiences = [
     title: "Class 10th and 12th",
     company_name: "New Green Field School, Saket",
     icon: nfgs,
-    iconBg: "#a2d2ff",
+    iconBg: "#b7e4c7",
     date: "April 2017 - April 2019",
     points: [
       "Completed 12th Class in CBSE Board with 94% in PCM and 90% in PCMB.",
@@ -219,7 +227,7 @@ export const projects = [
   },
   {
     iconUrl: summiz,
-    theme: "btn-back-black",
+    theme: "btn-back-red",
     name: "Promptopia",
     description:
       "It's a Full Stacked AI Prompting Tool where user can use all CRUD operations to post, copy, search and delete Prompts. It is developed with the help of Next.js",
@@ -234,27 +242,27 @@ export const projects = [
     link: "https://portfolio-2-0-or1lww48e-aayushdubeyys-projects.vercel.app/",
   },
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Ecomzy",
+    iconUrl: apple,
+    theme: "btn-back-black",
+    name: "Apple iPhone 15 Pro",
     description:
-      "This is a shopping website which looks absolutely stunning. React.js and Tailwind CSS is used for it's development.",
-    link: "https://ecomzy-shopping-black.vercel.app/",
+      "This is the page of Apple iPhone 15 Pro. Developed using Three.js and Gsap. It's a 3D website of iPhone 15 Pro with some amazing animations.",
+    link: "https://i-phone-15-pro.vercel.app/",
   },
   {
-    iconUrl: book,
+    iconUrl: car,
     theme: "btn-back-green",
-    name: "Plat-Code",
+    name: "Car Hub",
     description:
-      "Inspired from scaler, unacademy and Physics Wallah, this is a platform where a user can buy Tech based courses. React.js is used in this.",
-    link: "https://top-courses-project-zeta.vercel.app/",
+      "Car Hub is your one stop platform for buying, selling or renting a car. It is developed using Next.js and TypeScript, it is fast like a ferrari.",
+    link: "https://car-hub-chi-seven.vercel.app/",
   },
   {
-    iconUrl: trips,
+    iconUrl: ai2,
     theme: "btn-back-yellow",
-    name: "Trippy Trips",
+    name: "AI Article Summarizer",
     description:
-      "This is a website where a user can plan for the trip to some of the most wonderful looking places in India. Made with React.js.",
-    link: "https://aayushdubeyy.github.io/Plan-with-Aayush/",
+      "This website uses the power of AI to summarize the articles. It is developed using React.js and Tailwind CSS.",
+    link: "https://ai-article-summarizer-gilt.vercel.app/",
   },
 ];
